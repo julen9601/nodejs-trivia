@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-trivia",
+  "version": "1.0.0",
+  "description": "Ugly Trivia game kata in NodeJS",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggalmazor-training/nodejs-trivia.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ggalmazor-training/nodejs-trivia/issues"
+  },
+  "homepage": "https://github.com/ggalmazor-training/nodejs-trivia#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}

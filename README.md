@@ -6,6 +6,8 @@ Suggested workflow:
 - Test the game
 - Refactor it
 
+The original kata lives at https://github.com/jbrains/trivia
+
 ## Preparing your environment
 
 You can skip steps 1 and 2 if your development environment already has NodeJS 15 set up. Check the [`.tool-versions`](.tool-versions) file to know the specific NodeJS version this repo requires.

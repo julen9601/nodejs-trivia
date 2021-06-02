@@ -95,9 +95,9 @@ You can skip steps 1 and 2 if your development environment already has NodeJS 15
   Debería haber una función para hacer el console.log(question.shift())
 
 
-  8. roll -> intentamos reducir  los condicionales. no consigo poner la última parte bien.
+  8. roll -> intentamos reducir  los condicionales. no consigo poner la última parte bien. Eliminamos cplaces porque no parece usarse.
 
-  9. -> Estoy cansado
+  9. wasCorrectlyAnswered -> una vez más, intentamos reducir los condicionales a menos niveles. 
 
 
 

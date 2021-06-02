@@ -2,20 +2,22 @@ var Player = function(name){
   var name = name
   var purse = 0
   var place = 0
-  var currentPosition
   var inPenaltyBox = false
   var isGettingOutOfPenaltyBox = false
 
-  this.didPlayerWin = function(){
-    return !(purses == 6)
+  this.getPurse = function () {
+    return purse
   }
 
   this.inPenaltyBox = function () {
     return inPenaltyBox
   }
 
-  this.setPenaltyBox = function () {
-
+  this.setPenaltyBox = function (value) {
+    inPenaltyBox = value
+  }
+  this.getInPenaltyBox = function () {
+    return  inPenaltyBox
   }
 
   this.isGettingOutOfPenaltyBox = function () {
@@ -26,6 +28,25 @@ var Player = function(name){
     purse += coins
   }
 
+  this.getPurse = function () {
+    return purse
+  }
+
+  this.setPlace = function (newPlace) {
+    place = newPlace
+  }
+
+  this.getPlace = function () {
+    return place
+  }
+
+  this.getName = function () {
+    return name
+  }
+
+  this.setIsGettingOutOfPenaltyBox = function (value){
+    isGettingOutOfPenaltyBox = value
+  }
 
 }
 
